@@ -9,18 +9,19 @@ header {
     padding: 40px 100px;
     height: 200px;
     background: linear-gradient(to top, transparent 0%, black 100%);
+    z-index: 999
 
   }
   
   header .logo {
     position: relative;
     font-weight: 700;
-    color: #fff;
+    
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: 0.6s
+    transition: .6s
   }
   header ul {
     position: relative;
@@ -53,7 +54,7 @@ header {
   
   .top{
     padding: 5px 100px;
-    background: #fff;
+    background: rgb(32, 32, 32);
     height: 80px;
   }
 
@@ -62,11 +63,11 @@ header {
   }
   
   .top ul li a {
-    color: #000
+    color: rgb(233, 233, 233)
   }
 
   .top .logo img{
-      width: 100px;
+      width: 70px;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -134,6 +135,18 @@ header {
 .nav-menu ul{
   position: absolute;
   top: 40%;
-  right: 10%;
+  right: 4%;
   text-transform: uppercase;
+}
+
+.nav-menu ul li a:hover {
+  color: rgb(204, 111, 111)
+}
+
+.top-nav-list li a{
+  font-weight: 400;
+}
+
+.top-nav-list li a:hover {
+  color: rgb(65, 179, 255);
 }

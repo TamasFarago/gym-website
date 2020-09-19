@@ -2,12 +2,16 @@
 
 .carousel {
   position: relative;
+ 
 }
 
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
+  min-height: 100vh;
+ 
+
 }
 
 .carousel-item {
@@ -165,7 +169,7 @@
   position: absolute;
   right: 0;
   bottom: 10px;
-  left: 0;
+  /* left: 0; */
   z-index: 15;
   display: -webkit-box;
   display: -ms-flexbox;

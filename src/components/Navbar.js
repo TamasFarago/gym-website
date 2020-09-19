@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 <ul className="top-nav-list">
                     <li>(720)-415-3101</li>
                     <li>2249 Beechwood Avenue, Denver, CO 80202</li>
-                    <li>Contact</li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
                     <div className="social-icons">
                         <ul>
@@ -46,12 +46,11 @@ export default class Navbar extends Component {
             <hr className="hr"></hr>
             <div className="nav-menu">
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Why us?</a></li>
+                <li><a href="#">What's included?</a></li>
+                <li><a href="#">memberships</a></li>
+                <li><a href="#">for members</a></li>
+                <li><a href="#">offers</a></li>
               </ul>
               </div>
             </header>
