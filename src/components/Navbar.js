@@ -43,7 +43,7 @@ export default class Navbar extends Component {
                     </div>
                 
             </div>
-            <hr></hr>
+            <hr className="hr"></hr>
             <div className="nav-menu">
               <ul>
                 <li><a href="#">Home</a></li>

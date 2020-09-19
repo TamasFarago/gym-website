@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   header ul li {
@@ -40,7 +41,7 @@ header {
     text-decoration: none;
     color: rgb(235, 235, 235);
     letter-spacing: 2px;
-    font-weight: 500px;
+    font-weight: bold;
     transition: 0.6s
   }
   
@@ -66,6 +67,9 @@ header {
 
   .top .logo img{
       width: 100px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
   }
 
   .top .top-bar {
@@ -83,12 +87,17 @@ header {
       
   }
 
-  hr {
+  .hr {
       position: absolute;
-      width: 70%;
+      width: 60%;
       top: 30%;
       right: 5%;
+      opacity: .5;
+      
+      color: white;
+      
   }
+ 
 
   .top-nav-list li{
       margin-right: 40px;
@@ -118,7 +127,13 @@ header {
      width: 200px;
      background: rgb(185, 32, 32);
      border-radius: 30%;
-     padding: 20px 20px;
+     padding: 15px 15px;
 
  }
 
+.nav-menu ul{
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  text-transform: uppercase;
+}

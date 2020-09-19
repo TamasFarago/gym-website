@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import "../styles/Home.css"
-import Carousel from "../components/Carousel"
+import {Slider} from "../components/Slider"
 
 export default class Home extends Component {
     render() {
         return (
             <>
-            <Carousel />
+            <Slider />
             </>
         )
     }
