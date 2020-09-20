@@ -32,7 +32,7 @@ export default class SlickSlider extends Component {
             <p>- Thomas M.</p>
           </div>
           <div className="review">
-            <h3>"Best wellness center! I’ve been a devoted customer for over two years now and I have to say, this is the best place to get in shape and get diet and nutrition counseling!
+            <h3>"I’ve been a devoted customer for over two years now and I have to say, this is the best place to get in shape and get diet and nutrition counseling!
             "</h3>
             <p>- Sarah J.</p>
           </div>

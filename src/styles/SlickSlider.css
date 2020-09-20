@@ -5,17 +5,21 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position-y: -90px;
-    opacity: 1;
+    background-position-y: 130px;
+    background-attachment: fixed;
+    border-top: 4px solid rgb(209, 60, 60);
+    position: relative;
     
 }
 
 .slider-slick {
-    /* margin-top: 100px; */
+    position: absolute;
     text-align: center;
     width: 60%;
-    margin: 100px auto;
-    
+    margin: 0 auto;
+    outline: none;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .review h3 {

@@ -22,7 +22,7 @@ export function Slider() {
     className="carousel-fade"
     activeIndex={index} 
     onSelect={handleSelect} 
-    fade="true" 
+    fade="true"
     interval="10000"
     controls="true"
     >
