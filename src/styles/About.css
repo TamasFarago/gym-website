@@ -1,0 +1,54 @@
+.about {
+    min-height: 360px;
+    padding: 40px 0;
+    background-image: url("../images/texture2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    margin: 1rem 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.container h2 {
+    font-size: 3rem;
+    color: rgb(41, 40, 40);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container hr{
+    width: 100px;
+    height: 5px;
+    /* margin-top: -20px; */
+    background:  rgb(214, 28, 28);
+    margin-bottom: 20px;
+    border: none;
+
+}
+
+.container p:nth-child(3){
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.container p:nth-child(4){
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: rgb(59, 59, 59);
+}

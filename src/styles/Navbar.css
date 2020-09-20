@@ -77,6 +77,9 @@ header {
       display: none;
   }
   
+  .top .nav-menu ul{
+    top: 21%;
+  }
   
 
   .top-bar {
@@ -149,4 +152,25 @@ header {
 
 .top-nav-list li a:hover {
   color: rgb(65, 179, 255);
+}
+
+.join-us {
+  transition: 0.2s ease-in-out;
+  border: 3px solid rgb(185, 32, 32);
+  padding: 10px 25px;
+  text-decoration: none;
+  color: rgb(247, 60, 60);
+  font-weight: 700;
+  margin-left: 20px;
+
+}
+
+.join-btn {
+  text-decoration: none;
+
+}
+
+.join-us:hover {
+  background: rgb(185, 32, 32);
+  color: rgb(37, 27, 27);
 }

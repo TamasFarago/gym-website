@@ -51,6 +51,13 @@ export default class Navbar extends Component {
                 <li><a href="#">memberships</a></li>
                 <li><a href="#">for members</a></li>
                 <li><a href="#">offers</a></li>
+
+                
+                   <a className="join-btn" href="#"><div className="join-us">
+                       Join Us
+                   </div>
+                   </a>
+                
               </ul>
               </div>
             </header>

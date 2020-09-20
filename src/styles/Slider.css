@@ -6,7 +6,8 @@
     height: calc(100vh + 200px);  
     margin-top: -200px;  
     overflow-y: hidden; 
-    position: relative
+    position: relative;
+    border-bottom: 10px solid rgb(214, 28, 28);
 
 }
 
