@@ -3,18 +3,22 @@
     /* height: 100vh; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 0.2rem;
+    grid-row-gap: 5rem;
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
    
 }
 
 .grid-section{
-    background-image: url("../images/gridbg2.jpg");
+    background-image: url("../images/gridbg2.comp.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 @media only screen and (max-width: 900px){
@@ -44,50 +48,84 @@
     
 }
 
+
+
 .content1 {
-background-image: url("../images/grid1.jpg");
- background-position: center;
- background-size: contain;
+background-image: url("../images/grid1.comp.jpg");
+ background-position: right;
+ background-size: cover;
  background-repeat: no-repeat;
+ /* background: rgb(151, 137, 137); */
+ padding-right: 10px;
  
 }
 
-.content2{
+.content2, .content3, .content7, .content6, .content10{
     text-align: left;
     vertical-align: middle;
-    padding-top: 20%;
+    padding-top: 5%;
+    padding-left: 20px;
   
 }
 
+.content3, .content7 {
+    padding-left: 0;
+}
+
 .content4 {
-    background-image: url("../images/grid2.jpg");
-     background-position: center;
-     background-size: contain;
+    background-image: url("../images/grid2.comp.jpg");
+     background-position: left;
+     background-size: cover;
      background-repeat: no-repeat;
      
     }
 
 .content5 {
-    background-image: url("../images/grid3.jpg");
-    background-position: center;
-    background-size: contain;
+    background-image: url("../images/grid3.comp.jpg");
+    background-position: right;
+    background-size: cover;
     background-repeat: no-repeat;
          
         }
 
 .content8 {
-     background-image: url("../images/grid4.jpg");
-     background-position: center;
-     background-size: contain;
+     background-image: url("../images/grid4.comp.jpg");
+     background-position: left;
+     background-size: cover;
      background-repeat: no-repeat;
                  
          }
 
 
 .content9 {
-    background-image: url("../images/grid5.jpg");
-    background-position: center;
-    background-size: contain;
+    background-image: url("../images/grid5.comp.jpg");
+    background-position: right;
+    background-size: cover;
     background-repeat: no-repeat;
                         
      }
+
+    .grid h2{
+        font-weight: 900;
+        color: rgb(43, 41, 41);
+        font-size: 2rem;
+        margin-bottom: 5%;
+        
+    }
+
+    .grid p{
+        font-size: 1.3rem;
+        font-weight: 500;
+
+    }
+
+    .grid-section hr {
+        position: absolute;
+        border: none;
+        width: 4px;
+        height: 100%;
+        background: rgb(209, 60, 60);
+        right: 49.8%;
+        
+
+    }

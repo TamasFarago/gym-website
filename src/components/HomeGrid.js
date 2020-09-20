@@ -5,6 +5,7 @@ import "../styles/HomeGrid.css"
 export default function HomeGrid() {
     return (
         <section className="grid-section">
+            <hr />
             <div className="container-grid">
             <div className="grid content1">
                 

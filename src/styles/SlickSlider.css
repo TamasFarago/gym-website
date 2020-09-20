@@ -1,0 +1,38 @@
+.slick {
+    height: 330px;
+    background-image: url("../images/slick.comp.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: -90px;
+    opacity: 1;
+    
+}
+
+.slider-slick {
+    /* margin-top: 100px; */
+    text-align: center;
+    width: 60%;
+    margin: 100px auto;
+    
+}
+
+.review h3 {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    
+    
+}
+.review p{
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .7);
+
+}
+
+.slick-prev::before, .slick-next:before {
+    color: red !important
+}

@@ -1,9 +1,9 @@
 import React, { Component, useState } from 'react'
 import "../styles/Slider.css"
 import Carousel from 'react-bootstrap/Carousel'
-import bg1 from "../images/bg1.jpg"
-import bg3 from "../images/bg3.jpg"
-import bg4 from "../images/bg4.jpg"
+import bg1 from "../images/bg1.comp.jpg"
+import bg3 from "../images/bg3.comp.jpg"
+import bg4 from "../images/bg4.comp.jpg"
 import "../bootstrap/css/bootstrap.css"
 
 
