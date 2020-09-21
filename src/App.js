@@ -5,6 +5,7 @@ import "./App.css"
 import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import Offers from "./pages/Offers"
+import AboutPage from "./pages/AboutPage"
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/what-we-offer/" component={Offers} />
+      <Route exact path="/about-us/" component={AboutPage} />
       </Switch>
       <Footer />
     </>

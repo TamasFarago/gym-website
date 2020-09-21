@@ -36,7 +36,7 @@ header {
     list-style-type: none;
   }
 
-  header ul li a {
+  header ul a li {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -142,20 +142,25 @@ header {
   text-transform: uppercase;
 }
 
-.nav-menu ul a {
+.nav-menu a{
   text-decoration: none;
+  color: white;
 }
 
-.nav-menu ul li a:hover {
+.nav-menu ul a li:hover {
   color: rgb(204, 111, 111)
 }
 
-.top-nav-list li a{
+.top-nav-list a li{
   font-weight: 400;
 }
 
-.top-nav-list li a:hover {
+.top-nav-list a li:hover {
   color: rgb(65, 179, 255);
+}
+
+.top-nav-list a{
+  text-decoration: none;
 }
 
 .join-us {

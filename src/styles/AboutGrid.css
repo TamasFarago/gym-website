@@ -1,0 +1,85 @@
+.about-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    position: relative;
+    padding-top: 50px;
+    grid-gap: 1rem;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1000px;
+    
+}
+
+.about-section {
+    background: rgb(238, 238, 238);
+}
+
+
+.about-img-container1 {
+    background-image: url("../images/ceo.comp.jpg");  
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 500px;
+    max-height: 500px;
+  
+}
+
+.about-text-grid-container p{
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+
+.about-grid-section {
+    padding-bottom: 40px;
+}
+
+.about-section hr {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    opacity: .6
+}
+
+.values-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.values {
+    padding-bottom: 50px;
+}
+
+.values-p{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.values-container h2 {
+    font-size: 3rem;
+    justify-content: center;
+    margin: 0 auto;
+    color: rgb(61, 61, 61);
+    margin-bottom: 30px;
+}
+
+.values-container p {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+}
+
+.values-container p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,6 +1,6 @@
-.top-picture {
+.top-picture-about {
     height: 80vh;
-    background:url("../images/toppic.comp.jpg") ;
+    background:url("../images/about.comp.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,7 @@
     position: relative;
     border-bottom: 10px solid rgb(214, 28, 28);
 }
-.top-pic-title{
+.top-pic-title-about{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,7 +17,7 @@
 }
 
 
-.top-pic-title h1 {
+.top-pic-title-about h1 {
     color: white;
     text-transform: uppercase;
     font-weight: 900;

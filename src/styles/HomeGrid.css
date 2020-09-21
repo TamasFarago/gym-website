@@ -46,9 +46,8 @@
     /* background: red; */
     text-align: center;
     height: 300px;
-    
+ 
 }
-
 
 
 .content1 {
@@ -58,6 +57,10 @@ background-image: url("../images/grid1.comp.jpg");
  background-repeat: no-repeat;
  /* background: rgb(151, 137, 137); */
  padding-right: 10px;
+ -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+-moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+ 
  
 }
 
@@ -78,6 +81,10 @@ background-image: url("../images/grid1.comp.jpg");
      background-position: left;
      background-size: cover;
      background-repeat: no-repeat;
+     -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+
      
     }
 
@@ -86,6 +93,9 @@ background-image: url("../images/grid1.comp.jpg");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
          
         }
 
@@ -94,6 +104,9 @@ background-image: url("../images/grid1.comp.jpg");
      background-position: left;
      background-size: cover;
      background-repeat: no-repeat;
+     -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
                  
          }
 
@@ -103,6 +116,9 @@ background-image: url("../images/grid1.comp.jpg");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
+    box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
                         
      }
 
