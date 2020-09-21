@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from "react-router-dom"
 import "../styles/Navbar.css"
 import logo from "../images/logo.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -27,7 +28,9 @@ export default class Navbar extends Component {
         return (
             <>
             <header className={this.state.activeClass}>
-            <a href="#" className="logo"><img src={logo}></img></a>
+            <Link to="/">
+                <a href="#" className="logo"><img src={logo}></img></a>
+            </Link>
             <div className="top-bar">
                 <ul className="top-nav-list">
                     <li>(720)-415-3101</li>
@@ -46,8 +49,9 @@ export default class Navbar extends Component {
             <hr className="hr"></hr>
             <div className="nav-menu">
               <ul>
-                <li><a href="#">Why us?</a></li>
-                <li><a href="#">What's included?</a></li>
+                  <Link to="/what-we-offer">
+                    <li><a href="#">What we offer</a></li>
+                  </Link>
                 <li><a href="#">memberships</a></li>
                 <li><a href="#">for members</a></li>
                 <li><a href="#">offers</a></li>

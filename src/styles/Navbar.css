@@ -142,6 +142,10 @@ header {
   text-transform: uppercase;
 }
 
+.nav-menu ul a {
+  text-decoration: none;
+}
+
 .nav-menu ul li a:hover {
   color: rgb(204, 111, 111)
 }
