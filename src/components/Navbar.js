@@ -55,7 +55,7 @@ export default class Navbar extends Component {
                   <NavLink exact to="/" activeClassName="selected">
                   <li>Home</li>
                   </NavLink>
-                  <NavLink to="about-us" activeClassName="selected">
+                  <NavLink to="/about-us" activeClassName="selected">
                     <li>About Us</li>
                   </NavLink>
                     
@@ -68,11 +68,13 @@ export default class Navbar extends Component {
                 
                 
 
-                
-                   <a className="join-btn" href="#"><div className="join-us">
+                    <Link to="/join">
+                    <a className="join-btn" href="#"><div className="join-us">
                        Join Us
                    </div>
                    </a>
+                    </Link>
+                   
                 
               </ul>
               </div>

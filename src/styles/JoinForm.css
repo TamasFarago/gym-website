@@ -1,0 +1,76 @@
+.join-form-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.join-form-container p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(49, 49, 49);
+
+}
+
+
+
+.form-group label span {
+    color: rgb(170, 22, 22);
+}
+
+.form-group input {
+    height: 50px;
+    border: 2px solid rgb(32, 32, 32, .4);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.textarea {
+    margin-top: 20px;
+}
+
+.textarea label {
+    text-transform: uppercase;
+}
+
+textarea  {
+    padding-top: 5px;
+    border: 2px solid rgb(32, 32, 32, .4);
+    font-size: 20px;
+    padding-left: 10px;
+    /* outline: none; */
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px 60px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgb(255, 74, 74);
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(125,125,125,1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(125,125,125,1);
+    box-shadow: 2px 2px 5px 0px rgba(125,125,125,1);
+}

@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import Offers from "./pages/Offers"
 import AboutPage from "./pages/AboutPage"
 import Memberships from "./pages/Memberships"
+import Join from "./pages/Join"
 
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
       <Route exact path="/what-we-offer/" component={Offers} />
       <Route exact path="/about-us/" component={AboutPage} />
       <Route exact path="/memberships/" component={Memberships} />
+      <Route exact path="/join/" component={Join} />
       </Switch>
       <Footer />
     </>

@@ -1,3 +1,9 @@
+.pricing {
+    background: rgb(238, 238, 238);
+}
+
+
+
 .pricing-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,12 +13,14 @@
     left: 50%;
     transform: translateX(-50%);
     grid-gap: 1.5rem;
+    
 }
 
 .price-column1 {
     width: 100%;
     height: 700px;
     /* background: red; */
+    
 }
 
 .row {
@@ -29,6 +37,8 @@
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .price-p {
@@ -36,6 +46,7 @@
     background: rgb(201, 42, 42);
     text-align: center;
     padding: 25px;
+    
 }
 
 .t2 {
@@ -97,7 +108,9 @@ background: rgb(46, 46, 46)
 .price-btn {
     height: 80px;
     background: rgb(218, 218, 218);
-    position: relative
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .price-btn button{
@@ -113,4 +126,9 @@ background: rgb(46, 46, 46)
     text-transform: uppercase;
     color: rgb(240, 240, 240);
     outline: none;
+    cursor: pointer;
+}
+
+.price-btn button:hover {
+    opacity: .8;
 }
