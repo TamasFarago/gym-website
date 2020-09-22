@@ -1,6 +1,5 @@
 .top-picture {
     height: 80vh;
-    background:url("../images/toppic.comp.jpg") ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -8,14 +8,16 @@ import toppic from "../images/toppic.comp.jpg"
 export default class Offers extends Component {
     constructor(props){
         super(props);
-        this.state = {imageUrl: toppic}
+        this.state = {text: "What We Offer", picture: toppic}
     }
 
    
     render() {
         return (
             <>
-             <TopPicture />
+             <TopPicture 
+                text={this.state.text}
+                picture={this.state.picture}/>/>
             <OfferGrid />
             </>
         )

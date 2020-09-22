@@ -8,6 +8,7 @@ import Offers from "./pages/Offers"
 import AboutPage from "./pages/AboutPage"
 import Memberships from "./pages/Memberships"
 import Join from "./pages/Join"
+import Contact from "./pages/Contact"
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Route exact path="/about-us/" component={AboutPage} />
       <Route exact path="/memberships/" component={Memberships} />
       <Route exact path="/join/" component={Join} />
+      <Route exact path="/contact/" component={Contact} />
       </Switch>
       <Footer />
     </>
