@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import "../styles/Navbar.css"
 import logo from "../images/logo.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -52,19 +52,19 @@ export default class Navbar extends Component {
             <hr className="hr"></hr>
             <div className="nav-menu">
               <ul>
-                  <Link to="/">
+                  <NavLink exact to="/" activeClassName="selected">
                   <li>Home</li>
-                  </Link>
-                  <Link to="about-us">
+                  </NavLink>
+                  <NavLink to="about-us" activeClassName="selected">
                     <li>About Us</li>
-                  </Link>
+                  </NavLink>
                     
-                  <Link to="/what-we-offer">
+                  <NavLink to="/what-we-offer" activeClassName="selected">
                     <li>What we offer</li>
-                  </Link>
-                  <Link to="/memberships">
+                  </NavLink>
+                  <NavLink to="/memberships" activeClassName="selected">
                     <li>Memberships</li>
-                  </Link>
+                  </NavLink>
                 
                 
 

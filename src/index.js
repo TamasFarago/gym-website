@@ -7,13 +7,15 @@ import { BrowserRouter as Router } from "react-router-dom"
 import "../node_modules/font-awesome/css/font-awesome.min.css"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-
+import ScrollToTop from 'react-router-scroll-top'
 
 
 ReactDOM.render(
   <Router>
   <React.StrictMode>
+  <ScrollToTop>
     <App />
+    </ScrollToTop>
   </React.StrictMode>
   </Router>,
   document.getElementById('root')

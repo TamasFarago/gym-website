@@ -183,3 +183,7 @@ header {
   background: rgb(185, 32, 32);
   color: rgb(37, 27, 27);
 }
+
+.selected li{
+  color: rgb(204, 111, 111)
+}
