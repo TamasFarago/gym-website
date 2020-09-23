@@ -124,7 +124,13 @@ header {
 
   .social-icons ul li{
     margin-right: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out
 
+  }
+
+  .social-icons ul li:hover {
+    color: rgb(64, 199, 233);
   }
 
  .logo img{

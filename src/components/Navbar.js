@@ -3,7 +3,7 @@ import {Link, NavLink} from "react-router-dom"
 import "../styles/Navbar.css"
 import logo from "../images/logo.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faFacebookSquare, faInstagramSquare, faYoutube} from "@fortawesome/free-brands-svg-icons"
+import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} from "@fortawesome/free-brands-svg-icons"
 
 
 
@@ -45,6 +45,8 @@ export default class Navbar extends Component {
                             <li><FontAwesomeIcon icon={faFacebookSquare}/></li>
                             <li><FontAwesomeIcon icon={faInstagramSquare}/></li>
                             <li><FontAwesomeIcon icon={faYoutube}/></li>
+                            <li><FontAwesomeIcon icon={faLinkedin}/></li>
+                            <li><FontAwesomeIcon icon={faYelp}/></li>
                         </ul>
                     </div>
                 

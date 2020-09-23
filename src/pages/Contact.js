@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import TopPicture from "../components/TopPicture"
 import contactPic from "../images/contact.comp.jpg"
+import ContactForm from "../components/ContactForm"
 
 
 export default class Contact extends Component {
@@ -14,6 +15,7 @@ export default class Contact extends Component {
                 <TopPicture 
                 text={this.state.text}
                 picture={this.state.picture}/>
+                <ContactForm />
             </div>
         )
     }
