@@ -1,8 +1,6 @@
 .bga {
-    /* background-image: url("../images/bg1.jpg");  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  */
+   
+   
     height: calc(100vh + 200px);  
     margin-top: -200px;  
     overflow-y: hidden; 
@@ -11,11 +9,33 @@
 
 }
 
-.bg1{
+.bg{
     min-height: calc(100vh + 200px);
     width: 100% !important;
-    min-width: 1350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+
+.bg1{
     
+    background-image: url("../images/bg1.comp.jpg");  
+   
+}
+.bg2{
+    
+    background-image: url("../images/bg4.comp.jpg");  
+}
+
+.bg3{
+    
+    background-image: url("../images/bg3.comp.jpg");  
+   
+}
+
+.carousel-item {
+    background-position: center
 }
 
 

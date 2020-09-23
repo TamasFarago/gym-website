@@ -62,7 +62,7 @@ header {
       display: none;
   }
   
-  .top ul li a {
+  .top ul li  {
     color: rgb(233, 233, 233)
   }
 
@@ -192,4 +192,52 @@ header {
 
 .selected li{
   color: rgb(204, 111, 111)
+}
+
+
+@media (max-width: 1199.98px) {
+  .top-nav-list li:nth-child(2){
+    display: none;
+  }
+  .nav-menu ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .join-us {
+    transition: 0.2s ease-in-out;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .top ul li {
+    margin: 15px;
+  }
+  
+  header .logo {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 150px;
+  }
+  .top img {
+    width: 70px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 783px){
+  header ul a li{
+    margin: 0 8px;
+  }
+  .top ul li {
+    margin-right: 2px;
+  }
 }

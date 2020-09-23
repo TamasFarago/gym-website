@@ -25,8 +25,7 @@ export function Slider() {
     >
       <Carousel.Item>
         <img
-          className="d-block w-100 bg1"
-          src={bg1}
+          className="d-block w-100 bg bg1"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -37,8 +36,7 @@ export function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 bg1"
-          src={bg4}
+          className="d-block w-100 bg bg2"
           alt="Second slide"
         />
 
@@ -51,8 +49,7 @@ export function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 bg1"
-          src={bg3}
+          className="d-block w-100 bg bg3"
           alt="Third slide"
         />
 
