@@ -9,6 +9,7 @@ import AboutPage from "./pages/AboutPage"
 import Memberships from "./pages/Memberships"
 import Join from "./pages/Join"
 import Contact from "./pages/Contact"
+import Error from "./pages/Error"
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <Route exact path="/memberships/" component={Memberships} />
       <Route exact path="/join/" component={Join} />
       <Route exact path="/contact/" component={Contact} />
+      <Route component={Error} />
       </Switch>
       <Footer />
     </>
