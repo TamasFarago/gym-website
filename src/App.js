@@ -10,12 +10,15 @@ import Memberships from "./pages/Memberships"
 import Join from "./pages/Join"
 import Contact from "./pages/Contact"
 import Error from "./pages/Error"
+import Sidebar from "./components/Sidebar"
 
 
 export default function App() {
   return (
     <>
+      <Sidebar />
       <Navbar />
+      
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/what-we-offer/" component={Offers} />

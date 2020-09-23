@@ -195,6 +195,8 @@ header {
 }
 
 
+
+
 @media (max-width: 1199.98px) {
   .top-nav-list li:nth-child(2){
     display: none;
@@ -241,3 +243,12 @@ header {
     margin-right: 2px;
   }
 }
+
+@media (max-width: 720px) {
+  .top-bar, .nav-menu, .hr {
+    display: none;
+  }
+
+ 
+}
+

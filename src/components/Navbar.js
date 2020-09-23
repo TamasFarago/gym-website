@@ -27,10 +27,13 @@ export default class Navbar extends Component {
     render() {
         return (
             <>
+            
             <header className={this.state.activeClass}>
             <Link to="/">
                 <img className="logo" alt="" src={logo}></img>
             </Link>
+           
+            
             <div className="top-bar">
                 <ul className="top-nav-list">
                     <li>(720)-415-3101</li>
@@ -80,10 +83,18 @@ export default class Navbar extends Component {
                 
               </ul>
               </div>
+              
             </header>
+
+            
             <section className="banner"></section>
             
             </>
         )
     }
 }
+                
+                
+
+                   
+                
