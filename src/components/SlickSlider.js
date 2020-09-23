@@ -16,7 +16,7 @@ export default class SlickSlider extends Component {
     };
     return (
       <div className="slick">
-        <img src=""></img>
+        <img src="" alt=""></img>
         <Slider className="slider-slick"
         {...settings}>
           <div className="review">

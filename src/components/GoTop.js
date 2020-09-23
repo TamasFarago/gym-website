@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "../styles/GoTop.css"
 
 class GoTop extends React.Component {
@@ -34,9 +34,9 @@ class GoTop extends React.Component {
         if (this.state.thePosition){
             return (
                 <div className="go-top" onClick={this.scrollToTop}>
-                    BACK TO TOP <text className="up-arrow">
+                    BACK TO TOP <span className="up-arrow">
                                     &#8593;
-                                </text>
+                                </span>
                 </div>
             )
         }

@@ -13,11 +13,11 @@ export default function Footer() {
             <div className="footer-container">
                 <div className="footer-social">
                     <ul>
-                        <li className="fb"><a><FontAwesomeIcon className="facebook" icon={faFacebookSquare}/></a></li>
-                        <li className="insta"><a><FontAwesomeIcon className="instagram" icon={faInstagramSquare}/></a></li>
-                        <li className="yt"><a><FontAwesomeIcon className="youtube" icon={faYoutube}/></a></li>
-                        <li className="linkd"><a><FontAwesomeIcon className="linkedin"icon={faLinkedin}/></a></li>
-                        <li className="ylp"><a><FontAwesomeIcon className="yelp" icon={faYelp}/></a></li>
+                        <li className="fb"><FontAwesomeIcon className="facebook" icon={faFacebookSquare}/></li>
+                        <li className="insta"><FontAwesomeIcon className="instagram" icon={faInstagramSquare}/></li>
+                        <li className="yt"><FontAwesomeIcon className="youtube" icon={faYoutube}/></li>
+                        <li className="linkd"><FontAwesomeIcon className="linkedin"icon={faLinkedin}/></li>
+                        <li className="ylp"><FontAwesomeIcon className="yelp" icon={faYelp}/></li>
                     </ul>
                 </div>
                 <div className="footer-contact">
@@ -36,7 +36,7 @@ export default function Footer() {
                     <p>Copyright 2020 © All rights reserved</p>
                     <hr />
                     <p>Website by:<a href="#">Tamas Farago</a></p>
-                    <p><GoTop scrollStepInPx="100" delayInMs="20"/></p>
+                    <GoTop className="back-top" scrollStepInPx="100" delayInMs="20"/>
                 </div>
             </div>
             

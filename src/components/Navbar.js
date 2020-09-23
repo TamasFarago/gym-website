@@ -29,7 +29,7 @@ export default class Navbar extends Component {
             <>
             <header className={this.state.activeClass}>
             <Link to="/">
-                <a href="#" className="logo"><img src={logo}></img></a>
+                <img className="logo" alt="" src={logo}></img>
             </Link>
             <div className="top-bar">
                 <ul className="top-nav-list">
@@ -71,10 +71,10 @@ export default class Navbar extends Component {
                 
 
                     <Link to="/join">
-                    <a className="join-btn" href="#"><div className="join-us">
+                    <div className="join-us">
                        Join Us
                    </div>
-                   </a>
+                   
                     </Link>
                    
                 

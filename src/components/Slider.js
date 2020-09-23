@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import "../styles/Slider.css"
 import Carousel from 'react-bootstrap/Carousel'
 import bg1 from "../images/bg1.comp.jpg"
@@ -22,9 +22,6 @@ export function Slider() {
     className="carousel-fade"
     activeIndex={index} 
     onSelect={handleSelect} 
-    fade="true"
-    interval="10000"
-    controls="true"
     >
       <Carousel.Item>
         <img

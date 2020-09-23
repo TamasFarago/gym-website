@@ -10,27 +10,27 @@ export default function JoinForm() {
             <form>
                 <div className="form-grid">
                 <div className="form-group">
-                    <label for="firstnameform">First Name <span>*</span></label>
+                    <label htmlFor="firstnameform">First Name <span>*</span></label>
                     <input type="name" className="form-input-name" id="firstnameform" required></input>
                 </div>
                 <div className="form-group">
-                    <label for="lastnameform">Last Name <span>*</span></label>
+                    <label htmlFor="lastnameform">Last Name <span>*</span></label>
                     <input type="name" className="form-input-name" id="lastnameform" required></input>
                 </div>
                 <div className="form-group">
-                    <label for="email">EMAIL <span>*</span></label>
+                    <label htmlFor="email">EMAIL <span>*</span></label>
                     <input type="email" className="form-input-name" id="email" required></input>
                 </div>
                 <div className="form-group">
-                    <label for="phone">PHONE <span>*</span></label>
+                    <label htmlFor="phone">PHONE <span>*</span></label>
                     <input type="phone" className="form-input-name" id="phone" required></input>
                 </div>
                 </div>
                 <div className="form-group textarea">
-                    <label for="textarea">Let us know if you have any questions </label>
+                    <label htmlFor="textarea">Let us know if you have any questions </label>
                     <textarea type="text" className="form-input-text" id="textarea" rows="6"></textarea>
                 </div>
-                <button class="btn-send" type="submit" value="submit">Submit</button>
+                <button className="btn-send" type="submit" value="submit">Submit</button>
             </form>
             </div>
         </section>
