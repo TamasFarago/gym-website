@@ -43,7 +43,7 @@ header {
     color: rgb(235, 235, 235);
     letter-spacing: 2px;
     font-weight: bold;
-    transition: 0.6s
+    
   }
   
   .banner {
@@ -248,7 +248,12 @@ header {
   .top-bar, .nav-menu, .hr {
     display: none;
   }
-
+  header .logo {
+    width: 100px;
+  }
+  .top img{
+    width: 70px;
+  }
  
 }
 

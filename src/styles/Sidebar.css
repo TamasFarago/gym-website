@@ -1,13 +1,11 @@
-
-
 .sidenav {
     position: fixed;
     top: 0;
     background:rgb(32, 32, 32);
     width: 0px;
-    min-height: 100% ;
+    height: 100% ;
     z-index: 9999;
-    overflow-y: scroll;
+    overflow-y: auto;
     transition: .4s ease-in-out;
     -o-transition: .4s ease-in-out;
     -webkit-transition: .4s ease-in-out;
@@ -48,16 +46,10 @@
 
   .top-sidenav {
       width: 100%;
-      /* height: 50%; */
-      /* height: calc(100vh/3); */
-      
-      /* background: red; */
     
 }
 
-   
-    
-    .sidenav-list ul{
+   .sidenav-list ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -84,9 +76,9 @@
 
 
   .hamburger-menu {
-  
+    cursor: pointer;
     position: fixed;
-    top: 1%;
+    top: .5%;
     right: 10%;
     width: 50px;
     height: 50px;
@@ -130,12 +122,6 @@
       color: rgb(35, 166, 218);
   }
 
-
-  @media (max-width: 720px) {
-    .hamburger-menu {
-        display: block;
-      }
-  }
   
   .line {
     height: 3px;
@@ -143,4 +129,34 @@
     background: rgb(255, 255, 255);
     margin-bottom: 5px;
     margin-top: 10px;
+    transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+  }
+
+  .line1{
+      transform: rotate(45deg);
+      position: absolute;
+      top: 27%
+      
+  }
+
+  .line2 {
+    position: absolute;
+    top: 27%;
+      transform: translateX(-50%);
+      opacity: 0
+  }
+
+  .line3 {
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 27%;
+  }
+
+  @media (max-width: 720px) {
+    .hamburger-menu {
+        display: block;
+      }
   }

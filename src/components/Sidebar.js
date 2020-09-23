@@ -27,9 +27,9 @@ import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} fro
             return (
                 <>
                     <div className="hamburger-menu" onClick={this.toggleClass}>
-                    <div className="line1 line"></div>
-                    <div className="line2 line"></div>
-                    <div className="line3 line"></div>
+                    <div className={this.state.isOpen? "line1 line": "line"}></div>
+                    <div className={this.state.isOpen? "line2 line": "line"}></div>
+                    <div className={this.state.isOpen? "line3 line": "line"}></div>
                     </div>
                 <div className={this.state.isOpen? "sidenav open" : "sidenav"}>
                     <div className="sidenav-contact">
