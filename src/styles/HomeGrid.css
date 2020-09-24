@@ -179,6 +179,13 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
         }
     }
 
+    @media (max-width: 720px){
+        .grid-section {
+            background-attachment: initial;
+        }
+       
+    }
+
     @media only screen and (max-width: 312px){
       .container-grid {
           margin-left: 5%

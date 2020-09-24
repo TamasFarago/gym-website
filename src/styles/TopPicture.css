@@ -24,8 +24,16 @@
     font-size: 4rem;
 }
 
+@media (max-width: 720px){
+    .top-picture {
+        background-attachment: initial;
+    }
+   
+}
+
 @media (max-width: 320px){
     .top-pic-title h1{
         font-size: 3rem;
     }
 }
+

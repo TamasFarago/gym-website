@@ -42,6 +42,14 @@
     color: red !important
 }
 
+@media (max-width: 720px){
+    .slick {
+        background-attachment: initial;
+        background-position: center;
+    }
+   
+}
+
 @media (max-width: 350px){
     .review h3 {
         font-size: 15px;

@@ -62,6 +62,14 @@
     }
 }
 
+@media (max-width: 720px){
+    .about {
+        background-attachment: initial;
+    }
+   
+}
+
+
 @media (max-width: 500px){
     .container p:nth-child(4){
         font-size: 15px;

@@ -247,6 +247,13 @@
     }
 }
 
+@media (max-width: 720px){
+    .footer {
+        background-attachment: initial;
+    }
+   
+}
+
 @media only screen and (max-width: 620px){
     .footer-bottom-content{
         flex-direction: column;
