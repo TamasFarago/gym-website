@@ -11,21 +11,21 @@ export default function ContactForm() {
                 <p>If you have any questions or you just want to contact us, please use the from below and we'll get back to you as soon as possible.</p>
                 <div className="contact-main-grid">
                     
-                    <form>
+                    <form className="content11">
                     <div className="contact-form-grid">
-                    <div className="contact-form-group">
+                    <div className="contact-form-group contact-content1">
                         <label htmlFor="firstnameform">First Name <span>*</span></label>
                         <input type="name" className="form-input-name" id="firstnameform" required></input>
                     </div>
-                    <div className="contact-form-group">
+                    <div className="contact-form-group contact-content2">
                         <label htmlFor="lastnameform">Last Name <span>*</span></label>
                         <input type="name" className="form-input-name" id="lastnameform" required></input>
                     </div>
-                    <div className="contact-form-group">
+                    <div className="contact-form-group contact-content3">
                         <label htmlFor="email">EMAIL <span>*</span></label>
                         <input type="email" className="form-input-name" id="email" required></input>
                     </div>
-                    <div className="contact-form-group">
+                    <div className="contact-form-group contact-content4">
                         <label htmlFor="phone">PHONE <span>*</span></label>
                         <input type="phone" className="form-input-name" id="phone" required></input>
                     </div>
@@ -38,7 +38,7 @@ export default function ContactForm() {
                     </form>
                     </div>
                     </div>
-                    <div className="contact-box-container">
+                    <div className="contact-box-container content22">
                             <div className="contact-box" id="contact-box">
                                
                                 
