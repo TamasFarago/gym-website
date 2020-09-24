@@ -160,7 +160,7 @@ background: rgb(46, 46, 46)
 
     
 }
-@media (max-width: 1681px) {
+@media (max-width: 1081px) {
     .pricing-grid{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
