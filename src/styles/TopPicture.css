@@ -5,6 +5,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     position: relative;
     border-bottom: 10px solid rgb(214, 28, 28);
 }
@@ -21,4 +22,10 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 4rem;
+}
+
+@media (max-width: 320px){
+    .top-pic-title h1{
+        font-size: 3rem;
+    }
 }
