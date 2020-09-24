@@ -104,3 +104,20 @@
     background: rgb(214, 28, 28) !important;
     opacity: .6;
   }
+
+
+  @media (max-width: 720px) {
+      .carousel-caption h2 {
+          font-size: 35px;
+      }
+  }
+
+  @media (max-width: 615px){
+    .carousel-caption h2 {
+        font-size: 25px; 
+    }
+    .carousel-cap {
+        width: 200px;
+    }
+   
+  }

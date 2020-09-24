@@ -7,7 +7,7 @@ export default function About() {
             <div className="container">
                 <h2>OUR APPROACH TO FITNESS GETS RESULTS.</h2>
                 <hr/>
-                <p>At Advanced Wellness, we know that customized fitness programs deliver superior results.</p>
+                <p>At Body Flex Gym, we know that customized fitness programs deliver superior results.</p>
                 <p>We have spearheaded a boutique work out regime at 
                     our wellness rec center which utilizes
                      a customized exercise to get you fit quicker and 

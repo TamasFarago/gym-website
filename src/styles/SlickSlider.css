@@ -5,6 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position-x: center;
     background-position-y: 130px;
     background-attachment: fixed;
     border-top: 4px solid rgb(209, 60, 60);
@@ -39,4 +40,10 @@
 
 .slick-prev::before, .slick-next:before {
     color: red !important
+}
+
+@media (max-width: 350px){
+    .review h3 {
+        font-size: 15px;
+    }
 }

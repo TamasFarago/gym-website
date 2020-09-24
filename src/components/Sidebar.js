@@ -12,6 +12,7 @@ import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} fro
             super(props);
             this.state = {isOpen: false}
             this.toggleClass = this.toggleClass.bind(this)
+            this.removeSide = this.removeSide.bind(this)
         }
         
        
@@ -19,6 +20,9 @@ import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} fro
 
         toggleClass = () =>{
             this.setState({isOpen: !this.state.isOpen})
+        }
+        removeSide = () => {
+            this.setState({isOpen: false})
         }
         render() {
 
@@ -36,7 +40,7 @@ import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} fro
                     <ul className="top-nav-list-side">
                         <li>(720)-415-3101</li>
                         <li>2249 Beechwood Avenue, Denver, CO 80202</li>
-                        <Link to="/contact">
+                        <Link to="/contact" onClick={this.removeSide}>
                         <li>Contact</li>
                         </Link>
                         
@@ -46,20 +50,20 @@ import { faFacebookSquare, faInstagramSquare, faYoutube, faLinkedin, faYelp} fro
                         <div className="top-sidenav">
                             <div className="sidenav-list">
                                 <ul>
-                                    <NavLink exact to="/" activeClassName="selected">
+                                    <NavLink exact to="/" activeClassName="selected" onClick={this.removeSide}>
                                     <li>Home</li>
                                     </NavLink>
-                                    <NavLink to="/about-us" activeClassName="selected">
+                                    <NavLink to="/about-us" activeClassName="selected" onClick={this.removeSide}>
                                         <li>About Us</li>
                                     </NavLink>
                                         
-                                    <NavLink to="/what-we-offer" activeClassName="selected">
+                                    <NavLink to="/what-we-offer" activeClassName="selected" onClick={this.removeSide}>
                                         <li>What we offer</li>
                                     </NavLink>
-                                    <NavLink to="/memberships" activeClassName="selected">
+                                    <NavLink to="/memberships" activeClassName="selected" onClick={this.removeSide}>
                                         <li>Memberships</li>
                                     </NavLink>
-                                        <NavLink to="/join" activeClassName="selected">
+                                        <NavLink to="/join" activeClassName="selected" onClick={this.removeSide}>
                                         <li className="join-us-side">
                                         Join Us
                                         </li>

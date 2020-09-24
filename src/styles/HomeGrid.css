@@ -1,6 +1,5 @@
 .container-grid {
     display: grid;
-    /* height: 100vh; */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 5rem;
@@ -8,10 +7,19 @@
     margin-right: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
-    
-    
+    grid-template-areas: 
+        "content1 content2"
+        "content3 content4"
+        "content5 content6"
+        "content7 content8"
+        "content9 content10"
+    ;
    
 }
+  
+    
+   
+
 
 .grid-section{
     background-image: url("../images/gridbg2.comp.jpg");
@@ -22,32 +30,25 @@
     position: relative;
 }
 
-@media only screen and (max-width: 900px){
-    .container-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "content1"
-        "content2"
-        "content3"
-        "content4"
-        "content5"
-        "content6"
-        "content7"
-        "content8"
-        "content9"
-        "content10"
-        ;
-    }
-}
-
 .grid {
-    
-    /* background: red; */
     text-align: center;
     height: 300px;
  
 }
+
+.content2 {
+    grid-area: content2
+}
+
+.content3 {
+    grid-area: content3
+}
+
+.content7 {
+    grid-area: content7
+}
+
+
 
 
 .content1 {
@@ -60,7 +61,8 @@ background-image: url("../images/grid1.comp.jpg");
  -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
 -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
 box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
- 
+ grid-area: content1;
+   
  
 }
 
@@ -73,6 +75,7 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
 }
 
 .content3, .content7 {
+    padding-right: 10px;
     padding-left: 0;
 }
 
@@ -84,7 +87,8 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
      -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
-
+    grid-area: content4;
+      
      
     }
 
@@ -96,7 +100,8 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
-         
+    grid-area: content5;
+      
         }
 
 .content8 {
@@ -107,7 +112,8 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
      -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
-                 
+    grid-area: content8  ;
+              
          }
 
 
@@ -119,7 +125,8 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -webkit-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     -moz-box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
     box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
-                        
+    grid-area: content9 ;
+                  
      }
 
     .grid h2{
@@ -143,6 +150,47 @@ box-shadow: 3px 4px 4px -1px rgba(112,110,112,1);
         height: 100%;
         background: rgb(209, 60, 60);
         right: 49.8%;
-        
-
     }
+
+
+    @media only screen and (max-width: 900px){
+        .grid-section hr {
+            display: none;
+        }
+        .container-grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "content1"
+            "content2"
+            "content4"
+            "content3"
+            "content5"
+            "content6"
+            "content8"
+            "content7"
+            "content9"
+            "content10"
+            ;
+        }
+        #content2, #content3, #content7, #content6, #content10{
+            padding-top: 0;
+            padding-left: 0;
+        }
+    }
+
+    @media only screen and (max-width: 312px){
+      .container-grid {
+          margin-left: 5%
+      }
+    }
+
+    @media only screen and (max-width: 280px){
+        .container-grid {
+            margin-left: 2%
+        }
+      }
+
+   
+
+  

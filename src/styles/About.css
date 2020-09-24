@@ -52,3 +52,22 @@
     line-height: 1.5rem;
     color: rgb(59, 59, 59);
 }
+
+@media (max-width: 890px){
+    .container {
+        margin: 1rem 3rem;
+    }
+    .container h2 {
+        font-size: 2rem
+    }
+}
+
+@media (max-width: 500px){
+    .container p:nth-child(4){
+        font-size: 15px;
+}
+    .container {
+        margin: 1rem 1rem;
+    }
+
+}
