@@ -274,10 +274,15 @@
     }
     .footer-bottom-content p:nth-child(3){
         margin-right: 0;
+        margin-top: 15px;
     }
     .footer-bottom-content p:nth-child(1){
         margin-right: 0;
         margin-left: 0;
+       
+    }
+    .footer-bottom-content hr {
+        display: none;
     }
     
 }
@@ -299,5 +304,11 @@
 @media only screen and (max-width: 320px){
     .follow {
         line-height: 25px; 
+    }
+}
+
+@media only screen and (max-width: 260px){
+    .footer-bottom-content p:nth-child(1){
+       font-size: 6px;
     }
 }
