@@ -17,7 +17,7 @@ export default class Offers extends Component {
             <>
              <TopPicture 
                 text={this.state.text}
-                picture={this.state.picture}/>/>
+                picture={this.state.picture}/>
             <OfferGrid />
             </>
         )
