@@ -268,7 +268,8 @@
     }
     .go-top {
         bottom: 0;
-        left: 50px;
+        left: 0px;
+        right: 0;
         
     }
     .footer-bottom-content p:nth-child(3){
