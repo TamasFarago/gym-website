@@ -6,7 +6,7 @@ export default function Pricing() {
     return (
         <section className="pricing">
             <div className="pricing-grid">
-                <div className="price-column1">
+                <div className="price-column1 column">
                     <div className="price-top">All access<br/> performance (6)</div>
                     <div className="price-p">
                         <h4>$99</h4>
@@ -26,7 +26,7 @@ export default function Pricing() {
                     </div>
                         
                 </div>
-                <div className="price-column2">
+                <div className="price-column2 column">
                     <div className="price-top t2">All access<br/> performance (12)</div>
                     <div className="price-p p2">
                         <h4>$199</h4>
@@ -45,7 +45,7 @@ export default function Pricing() {
                     </Link>
                     </div>
                 </div>
-                <div className="price-column3">
+                <div className="price-column3 column">
                     <div className="price-top t3">All access<br/> superior</div>
                     <div className="price-p p3">
                         <h4>$299</h4>
@@ -64,7 +64,7 @@ export default function Pricing() {
                     </Link>
                     </div>
                 </div>
-                <div className="price-column4">
+                <div className="price-column4 column">
                     <div className="price-top t4">All access<br/> Elite</div>
                     <div className="price-p p4">
                         <h4>$399</h4>
