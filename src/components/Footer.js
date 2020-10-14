@@ -35,7 +35,7 @@ export default function Footer() {
                 <div className="footer-bottom-content">
                     <p>Copyright 2020 © All rights reserved</p>
                     <hr />
-                    <p>Website by:<a href="#">Tamas Farago</a></p>
+                    <p>Website by:<a href="https://tamasfarago.netlify.app" target="_blank" rel="noopener noreferrer" className="tamasfarago"> Tamas Farago</a></p>
                     <GoTop className="back-top" scrollStepInPx="100" delayInMs="20"/>
                 </div>
             </div>

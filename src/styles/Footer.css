@@ -197,14 +197,15 @@
    
 }
 
-.footer-bottom-content a{
+.tamasfarago{
     margin-left: 10px;
     text-decoration: none;
     color: white;
-    transition: .2s ease-in-out
+    transition: .2s ease-in-out;
+    cursor: pointer;
 }
 
-.footer-bottom-content a:hover {
+.tamasfarago:hover {
     color: rgb(74, 165, 226);
 }
 
